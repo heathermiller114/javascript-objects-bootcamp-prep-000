@@ -4,5 +4,10 @@ var playlist = {
   cardiB: "i like it"
 }
 function updatePlaylist(playist, name, song) {
-  
+  meals[name] = song;
+  return playlist;
+}
+function removeFromPlaylist(playlist, name) {
+  delete playlist.name;
+  return playlist;
 }
